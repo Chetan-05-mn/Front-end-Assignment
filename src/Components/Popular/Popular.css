@@ -1,0 +1,28 @@
+*{
+    font-family: 'Poppins';  
+  }
+  .popular{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 90vh;
+      gap:10px
+  }
+  .popular h1{
+      color: black;
+      font-size: 40px;
+      font-weight: 600;
+  
+  }
+  .popular hr{
+      width: 20%;
+      height: 2px;
+      background: red;
+      border-radius: 10px;
+  }
+  
+  .popular-item{
+      margin-top: 50px9;
+      display: flex;
+      gap: 30px;
+  }

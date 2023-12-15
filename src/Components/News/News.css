@@ -1,0 +1,49 @@
+.New{
+    display: flex;
+    width: 65%;
+    height:40vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    background: #2874f0;;
+    gap: 30px;
+}
+.New p{
+    font-size: 20px;
+    font-family: "Poppins";
+}
+.News{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 730px;
+    border-radius: 80px;
+    border:1px solid #e3e3e3;
+    height:40px
+}
+.News input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #616;
+    font-size: 20px;
+    font-family: 'Poppoins';
+}
+.News button{
+    height: 40px;
+    width: 100px;
+    border-radius: 80px;
+    background-color: black;
+    color: azure;
+    font-size: 20px;
+    cursor:pointer;
+}
+.News button:active{
+    color: red;
+    background-color: white;
+}

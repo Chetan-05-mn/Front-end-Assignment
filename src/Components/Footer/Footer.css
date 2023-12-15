@@ -1,0 +1,58 @@
+.logo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background:#FFFFFF;
+    
+}
+.logo1 img{
+    width: 200px;
+    background-color: #FFFFFF;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:50px;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    cursor: pointer;
+}
+.logo-section{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}
+.logo1 .insta img{
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+.logo1 .pint img{
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+.logo1 .whatsapp img{
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+}
+.footer-copyright hr{
+    height: 1px;
+    width:100%;
+    background-color:grey;
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-copyright p{
+    color: red;
+    font-size: 20px;
+}
